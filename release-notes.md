@@ -1,3 +1,21 @@
+# 1.1.71-fork（SorthZHU/dsh-purge）
+
+## 中文
+
+- 本副本基于上游 **1.1.71**（作者 YuJunZhiXue），追加 3 个兼容补丁，包版本号仍为 `1.1.71`。
+- `fix: adapt for DSH 2.0.18+ compatibility`：适配新版宿主，涉及 `cordis.patch.yml`、`lib/hide-console.js`、`lib/host-clean.js`、`lib/identity.js`、`presets/redteam/agent.cordis.yml`。
+- `fix(client)`：消除冷启动误报「env not configured」弹窗（`EnvAdaptSendGate`）。
+- `fix(prompt)`：修正 sealed 默认提示词拼写 `aircreack` → `aircrack`。
+- 宿主兼容性以本副本补丁为准；上游维护状态与署名见 `MIRROR-NOTICE.md`。
+
+## English
+
+- Built on upstream **1.1.71** (author YuJunZhiXue) plus three compatibility patches; package version stays `1.1.71`.
+- `fix: adapt for DSH 2.0.18+ compatibility`: cordis.patch.yml, hide-console, host-clean, identity, and the redteam preset.
+- `fix(client)`: removes the cold-boot false-positive "env not configured" modal in `EnvAdaptSendGate`.
+- `fix(prompt)`: typo `aircreack` -> `aircrack` in the sealed default prompt.
+- Host compatibility follows these patches; upstream status and attribution live in `MIRROR-NOTICE.md`.
+
 # 1.1.71
 
 ## 中文

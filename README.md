@@ -29,6 +29,8 @@
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
+> **This copy is hosted at [SorthZHU/dsh-purge](https://github.com/SorthZHU/dsh-purge).** It is upstream 1.1.71 plus three compatibility patches (dsh 2.0.18+ adaptation, cold-boot modal fix, default-prompt typo fix). Original author and source of truth: [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) — see `MIRROR-NOTICE.md`.
+
 > **Updates paused.** The author has no steady income for now because of work. Maintenance is on hold: no new releases, issues / PRs are not taken, and new dsh versions are not guaranteed. The repo stays usable; see Sponsor below. When maintenance resumes, this README will say so.
 
 > **Official Web and the official desktop app are both supported.** Official `dsh web` uses profile `web`. The official desktop EXE (DeepSeek Harness **0.2.0-rc.2**) uses profile `desktop`. Install and Apply them separately. This release targets dsh 0.2 only. Older dsh builds need the matching older plugin. Community Desktop is not maintained.

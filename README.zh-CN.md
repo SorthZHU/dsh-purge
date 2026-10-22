@@ -29,6 +29,8 @@
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
+> **本副本托管于 [SorthZHU/dsh-purge](https://github.com/SorthZHU/dsh-purge)。** 内容为上游 1.1.71 加 3 个兼容补丁（适配 dsh 2.0.18+、修复冷启动误报弹窗、修正默认提示词拼写）。原作者与来源仓库：[YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) —— 详见 `MIRROR-NOTICE.md`。
+
 > **暂停更新。** 作者因工作安排，近期没有稳定收入，项目维护暂时搁置：不再发版、暂不收 issue / PR，也不保证跟进新版 dsh。仓库仍可自用；赞助见下方。恢复维护时会在本 README 说明。
 
 > **官方 Web 和官方桌面端都支持。** 官方 `dsh web` 用 profile `web`；官方桌面 EXE（DeepSeek Harness **0.2.0-rc.2**）用 profile `desktop`。两边分开安装、分开点「应用」。当前版本只适配 dsh 0.2；更早的 dsh 用对应的老版本插件。社区桌面端不维护。
